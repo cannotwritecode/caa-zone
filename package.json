@@ -1,0 +1,42 @@
+{
+
+    "name": "express-auth-frontend-only",
+
+    "version": "1.0.0",
+
+    "description": "An Express app that handles form submissions with frontend-only authentication.",
+
+    "main": "server.js",
+
+    "scripts": {
+
+        "start": "node server.js",
+
+        "dev": "nodemon server.js"
+
+    },
+
+    "dependencies": {
+
+        "body-parser": "^1.19.0",
+
+        "cors": "^2.8.5",
+
+        "express": "^4.18.2"
+
+    },
+
+    "devDependencies": {
+
+        "nodemon": "^2.0.22"
+
+    },
+
+    "engines": {
+
+        "node": ">=14.0.0"
+
+    }
+
+}
+
